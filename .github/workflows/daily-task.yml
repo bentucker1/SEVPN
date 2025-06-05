@@ -2,7 +2,7 @@ name: Daily Task Trigger
 
 on:
   schedule:
-    - cron: '0 8 * * *'  # every day at 8:00 UTC
+    - cron: '* * * * *'  # every minute UTC
 
 jobs:
   call-anvil-endpoint:
