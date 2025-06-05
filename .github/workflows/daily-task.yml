@@ -1,0 +1,13 @@
+name: Daily Task Trigger
+
+on:
+  schedule:
+    - cron: '0 8 * * *'  # Every day at 8:00 AM UTC
+
+jobs:
+  call-anvil-endpoint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Call Anvil Endpoint
+        run: curl -X GET https://IVU3NLU6Q5LR5VG2.anvil.app/_/api/daily_task
+
