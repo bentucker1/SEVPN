@@ -11,4 +11,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Call Anvil Endpoint
-        run: curl -X GET https://frightened-prize-ship.anvil.app/_/api/daily_task
+        run: curl -X GET https://frightened-prize-ship.anvil.app/_/api/hourly_task
