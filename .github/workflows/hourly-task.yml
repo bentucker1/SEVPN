@@ -1,4 +1,4 @@
-name: Daily Task Trigger
+name: Hourly Task Trigger
 
 on:
   workflow_dispatch:
