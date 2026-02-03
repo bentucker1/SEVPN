@@ -3,7 +3,7 @@ name: Hourly Task Trigger
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 * * * *'  # every minute for testings
+    - cron: '0 * * * *'  # every minute for testing
 
 
 jobs:
